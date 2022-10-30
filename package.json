@@ -1,0 +1,31 @@
+{
+  "name": "hackathon-bot",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/lalkakrem/magstep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/lalkakrem/magstep/issues"
+  },
+  "homepage": "https://gitlab.com/lalkakrem/magstep#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonparser": "^1.0.1",
+    "mysql": "^2.10.2",
+    "mysql2": "^2.3.3",
+    "mysql2-promise": "^0.1.4",
+    "telegraf": "^4.7.0"
+  },
+  "type": "module"
+}
